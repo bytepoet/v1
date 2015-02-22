@@ -1,0 +1,5 @@
+* * * * * vnstati -vs -i tun443 -o  /usr/share/nginx/html/stats/tun443.png
+* * * * * vnstati -vs -i eth0 -o /usr/share/nginx/html/stats/eth0.png
+* * * * * vnstat > /usr/share/nginx/html/stats/index.html
+* * * * * vnstat -u -i tun443
+* * * * * vnstat -u -i eth0
